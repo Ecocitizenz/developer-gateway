@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://developers.ecocitizenz.com/sitemap.xml
