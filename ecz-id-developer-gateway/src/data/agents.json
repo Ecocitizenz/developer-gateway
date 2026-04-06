@@ -1,0 +1,473 @@
+[
+  {
+    "id": "compliance-evidence-agent",
+    "name": "Compliance & Evidence Agent",
+    "category": "Governance",
+    "description": "Automates compliance evidence collection, audit trail assembly, and regulatory reporting against ECZ-ID verified identity records.",
+    "domains": [
+      "APIs & Software",
+      "Products & Custody",
+      "Trade & Infrastructure"
+    ],
+    "capabilities": [
+      "Evidence assembly",
+      "Audit trail generation",
+      "Regulatory mapping",
+      "Continuous compliance monitoring"
+    ],
+    "starterKit": "compliance-evidence-agent",
+    "starterKitAvailable": true,
+    "starterKitRoute": "/agent-starter-kits/compliance-evidence",
+    "requiredPassports": [
+      "ECZ-ID Business Passport™",
+      "Agent Credential",
+      "Risk & Policy Passport"
+    ],
+    "verifierPath": "https://resolver.ecocitizenz.org",
+    "deployReady": true,
+    "trustLevel": "Infrastructure-grade",
+    "useCase": "compliance",
+    "deploymentEnvironments": [
+      "cloud",
+      "on-premise",
+      "hybrid"
+    ],
+    "tags": [
+      "compliance",
+      "governance",
+      "audit",
+      "regulatory"
+    ]
+  },
+  {
+    "id": "api-workflow-agent",
+    "name": "API Workflow Agent",
+    "category": "Integration",
+    "description": "Orchestrates multi-step API workflows with ECZ-ID identity verification at every handoff, ensuring trusted data flows across systems.",
+    "domains": [
+      "APIs & Software",
+      "IoT & Connected Systems",
+      "Platforms & Marketplaces"
+    ],
+    "capabilities": [
+      "Multi-step orchestration",
+      "Identity-verified handoffs",
+      "Retry and fallback logic",
+      "Workflow audit logging"
+    ],
+    "starterKit": "api-workflow-agent",
+    "starterKitAvailable": true,
+    "starterKitRoute": "/agent-starter-kits/api-workflow",
+    "requiredPassports": [
+      "ECZ-ID Business Passport™",
+      "Agent Credential",
+      "API Passport"
+    ],
+    "verifierPath": "https://resolver.ecocitizenz.org",
+    "deployReady": true,
+    "trustLevel": "Infrastructure-grade",
+    "useCase": "integration",
+    "deploymentEnvironments": [
+      "cloud",
+      "on-premise",
+      "hybrid"
+    ],
+    "tags": [
+      "api",
+      "workflow",
+      "orchestration",
+      "integration"
+    ]
+  },
+  {
+    "id": "operations-incident-agent",
+    "name": "Operations & Incident Agent",
+    "category": "Operations",
+    "description": "Monitors operational health, detects anomalies, and coordinates incident response with verified identity chains for every action taken.",
+    "domains": [
+      "IoT & Connected Systems",
+      "Trade & Infrastructure",
+      "Vehicles & Mobility"
+    ],
+    "capabilities": [
+      "Anomaly detection",
+      "Incident escalation",
+      "Root cause correlation",
+      "Verified response chains"
+    ],
+    "starterKit": "operations-incident-agent",
+    "starterKitAvailable": true,
+    "starterKitRoute": "/agent-starter-kits/operations-incident",
+    "requiredPassports": [
+      "ECZ-ID Business Passport™",
+      "Agent Credential"
+    ],
+    "verifierPath": "https://resolver.ecocitizenz.org",
+    "deployReady": true,
+    "trustLevel": "Infrastructure-grade",
+    "useCase": "operations",
+    "deploymentEnvironments": [
+      "cloud",
+      "on-premise",
+      "hybrid",
+      "edge"
+    ],
+    "tags": [
+      "operations",
+      "incident",
+      "monitoring",
+      "response"
+    ]
+  },
+  {
+    "id": "support-intake-agent",
+    "name": "Support & Intake Agent",
+    "category": "Customer Operations",
+    "description": "Handles inbound requests, triages support tickets, and verifies identity context before routing to appropriate resolution paths.",
+    "domains": [
+      "Platforms & Marketplaces",
+      "APIs & Software"
+    ],
+    "capabilities": [
+      "Request triage",
+      "Identity-aware routing",
+      "Ticket classification",
+      "SLA tracking"
+    ],
+    "starterKit": "support-intake-agent",
+    "starterKitAvailable": true,
+    "starterKitRoute": "/agent-starter-kits/support-intake",
+    "requiredPassports": [
+      "ECZ-ID Business Passport™",
+      "Agent Credential"
+    ],
+    "verifierPath": "https://resolver.ecocitizenz.org",
+    "deployReady": true,
+    "trustLevel": "Infrastructure-grade",
+    "useCase": "customer-ops",
+    "deploymentEnvironments": [
+      "cloud",
+      "hybrid"
+    ],
+    "tags": [
+      "support",
+      "intake",
+      "triage",
+      "customer"
+    ]
+  },
+  {
+    "id": "research-agent",
+    "name": "Research Agent",
+    "category": "Intelligence",
+    "description": "Aggregates, cross-references, and synthesises data from verified sources, producing trusted research outputs anchored to ECZ-ID provenance records.",
+    "domains": [
+      "APIs & Software",
+      "Products & Custody",
+      "Trade & Infrastructure"
+    ],
+    "capabilities": [
+      "Source verification",
+      "Cross-reference analysis",
+      "Provenance tracking",
+      "Synthesis reporting"
+    ],
+    "starterKit": "research-agent",
+    "starterKitAvailable": true,
+    "starterKitRoute": "/agent-starter-kits/research-agent",
+    "requiredPassports": [
+      "ECZ-ID Business Passport™",
+      "Agent Credential",
+      "Dataset Passport"
+    ],
+    "verifierPath": "https://resolver.ecocitizenz.org",
+    "deployReady": true,
+    "trustLevel": "Infrastructure-grade",
+    "useCase": "research",
+    "deploymentEnvironments": [
+      "cloud",
+      "on-premise"
+    ],
+    "tags": [
+      "research",
+      "analysis",
+      "synthesis",
+      "provenance"
+    ]
+  },
+  {
+    "id": "custody-transfer-agent",
+    "name": "Custody Transfer Agent",
+    "category": "Supply Chain",
+    "description": "Manages chain-of-custody handoffs with cryptographic identity verification at every transfer point, ensuring unbroken provenance.",
+    "domains": [
+      "Products & Custody",
+      "Trade & Infrastructure",
+      "Vehicles & Mobility"
+    ],
+    "capabilities": [
+      "Custody handoff verification",
+      "Chain-of-custody logging",
+      "Transfer authentication",
+      "Provenance continuity"
+    ],
+    "starterKit": "generic-python-agent",
+    "starterKitAvailable": true,
+    "starterKitRoute": "/agent-starter-kits/python-agent",
+    "requiredPassports": [
+      "ECZ-ID Business Passport™",
+      "Agent Credential",
+      "Product Passport"
+    ],
+    "verifierPath": "https://resolver.ecocitizenz.org",
+    "deployReady": true,
+    "trustLevel": "Infrastructure-grade",
+    "useCase": "supply-chain",
+    "deploymentEnvironments": [
+      "cloud",
+      "on-premise",
+      "hybrid",
+      "edge"
+    ],
+    "tags": [
+      "custody",
+      "transfer",
+      "supply-chain",
+      "provenance"
+    ]
+  },
+  {
+    "id": "iot-fleet-agent",
+    "name": "IoT Fleet Management Agent",
+    "category": "IoT & Fleet",
+    "description": "Manages device fleets with identity-verified telemetry, firmware attestation, and lifecycle tracking across connected systems.",
+    "domains": [
+      "IoT & Connected Systems",
+      "Vehicles & Mobility",
+      "Drones & Aerial Systems"
+    ],
+    "capabilities": [
+      "Fleet telemetry management",
+      "Firmware attestation",
+      "Device lifecycle tracking",
+      "Identity-verified commands"
+    ],
+    "starterKit": "generic-python-agent",
+    "starterKitAvailable": true,
+    "starterKitRoute": "/agent-starter-kits/python-agent",
+    "requiredPassports": [
+      "ECZ-ID Business Passport™",
+      "Agent Credential",
+      "IoT Device Passport"
+    ],
+    "verifierPath": "https://resolver.ecocitizenz.org",
+    "deployReady": true,
+    "trustLevel": "Infrastructure-grade",
+    "useCase": "iot",
+    "deploymentEnvironments": [
+      "cloud",
+      "edge",
+      "hybrid"
+    ],
+    "tags": [
+      "iot",
+      "fleet",
+      "telemetry",
+      "device-management"
+    ]
+  },
+  {
+    "id": "risk-policy-agent",
+    "name": "Risk & Policy Agent",
+    "category": "Governance",
+    "description": "Evaluates risk posture, enforces policy gates, and generates compliance attestations anchored to ECZ-ID verified identities.",
+    "domains": [
+      "Products & Custody",
+      "Platforms & Marketplaces",
+      "Trade & Infrastructure"
+    ],
+    "capabilities": [
+      "Risk scoring",
+      "Policy gate enforcement",
+      "Attestation generation",
+      "Continuous risk monitoring"
+    ],
+    "starterKit": "compliance-evidence-agent",
+    "starterKitAvailable": true,
+    "starterKitRoute": "/agent-starter-kits/compliance-evidence",
+    "requiredPassports": [
+      "ECZ-ID Business Passport™",
+      "Agent Credential",
+      "Risk & Policy Passport"
+    ],
+    "verifierPath": "https://resolver.ecocitizenz.org",
+    "deployReady": true,
+    "trustLevel": "Infrastructure-grade",
+    "useCase": "compliance",
+    "deploymentEnvironments": [
+      "cloud",
+      "on-premise",
+      "hybrid"
+    ],
+    "tags": [
+      "risk",
+      "policy",
+      "governance",
+      "attestation"
+    ]
+  },
+  {
+    "id": "drone-operations-agent",
+    "name": "Drone Operations Agent",
+    "category": "Autonomous Systems",
+    "description": "Coordinates drone mission planning, flight verification, and post-mission reporting with identity-anchored audit trails.",
+    "domains": [
+      "Drones & Aerial Systems",
+      "Trade & Infrastructure"
+    ],
+    "capabilities": [
+      "Mission planning",
+      "Flight verification",
+      "Geofence enforcement",
+      "Post-mission audit"
+    ],
+    "starterKit": "operations-incident-agent",
+    "starterKitAvailable": true,
+    "starterKitRoute": "/agent-starter-kits/operations-incident",
+    "requiredPassports": [
+      "ECZ-ID Business Passport™",
+      "Agent Credential",
+      "Applicable D1–D4 Drone Passport"
+    ],
+    "verifierPath": "https://resolver.ecocitizenz.org",
+    "deployReady": true,
+    "trustLevel": "Infrastructure-grade",
+    "useCase": "autonomous-systems",
+    "deploymentEnvironments": [
+      "cloud",
+      "edge"
+    ],
+    "tags": [
+      "drone",
+      "autonomous",
+      "mission",
+      "aerial"
+    ]
+  },
+  {
+    "id": "marketplace-trust-agent",
+    "name": "Marketplace Trust Agent",
+    "category": "Platforms",
+    "description": "Validates participant identities, enforces marketplace rules, and maintains trust scores across platform transactions.",
+    "domains": [
+      "Platforms & Marketplaces",
+      "APIs & Software"
+    ],
+    "capabilities": [
+      "Participant validation",
+      "Rule enforcement",
+      "Trust scoring",
+      "Transaction monitoring"
+    ],
+    "starterKit": "generic-python-agent",
+    "starterKitAvailable": true,
+    "starterKitRoute": "/agent-starter-kits/python-agent",
+    "requiredPassports": [
+      "ECZ-ID Business Passport™",
+      "Agent Credential",
+      "API Passport"
+    ],
+    "verifierPath": "https://resolver.ecocitizenz.org",
+    "deployReady": true,
+    "trustLevel": "Infrastructure-grade",
+    "useCase": "platforms",
+    "deploymentEnvironments": [
+      "cloud",
+      "hybrid"
+    ],
+    "tags": [
+      "marketplace",
+      "platform",
+      "trust",
+      "validation"
+    ]
+  },
+  {
+    "id": "vehicle-identity-agent",
+    "name": "Vehicle Identity Agent",
+    "category": "Mobility",
+    "description": "Manages vehicle identity lifecycle from manufacture through operation, including autonomous driving credential verification.",
+    "domains": [
+      "Vehicles & Mobility",
+      "IoT & Connected Systems"
+    ],
+    "capabilities": [
+      "Vehicle identity provisioning",
+      "Credential verification",
+      "Lifecycle management",
+      "Autonomous driving attestation"
+    ],
+    "starterKit": "generic-python-agent",
+    "starterKitAvailable": true,
+    "starterKitRoute": "/agent-starter-kits/python-agent",
+    "requiredPassports": [
+      "ECZ-ID Business Passport™",
+      "Agent Credential",
+      "Applicable Road & Freight Mobility Passport"
+    ],
+    "verifierPath": "https://resolver.ecocitizenz.org",
+    "deployReady": true,
+    "trustLevel": "Infrastructure-grade",
+    "useCase": "mobility",
+    "deploymentEnvironments": [
+      "cloud",
+      "edge",
+      "hybrid"
+    ],
+    "tags": [
+      "vehicle",
+      "mobility",
+      "autonomous",
+      "identity"
+    ]
+  },
+  {
+    "id": "robotics-safety-agent",
+    "name": "Robotics Safety Agent",
+    "category": "Robotics",
+    "description": "Enforces safety protocols, verifies operational boundaries, and maintains safety attestation records for robotic systems.",
+    "domains": [
+      "Robotics & Humanoids",
+      "IoT & Connected Systems"
+    ],
+    "capabilities": [
+      "Safety protocol enforcement",
+      "Boundary verification",
+      "Safety attestation",
+      "Incident logging"
+    ],
+    "starterKit": "operations-incident-agent",
+    "starterKitAvailable": true,
+    "starterKitRoute": "/agent-starter-kits/operations-incident",
+    "requiredPassports": [
+      "ECZ-ID Business Passport™",
+      "Agent Credential",
+      "Applicable Industrial / Public-Space / Domestic Robot Passport"
+    ],
+    "verifierPath": "https://resolver.ecocitizenz.org",
+    "deployReady": true,
+    "trustLevel": "Infrastructure-grade",
+    "useCase": "robotics",
+    "deploymentEnvironments": [
+      "on-premise",
+      "edge",
+      "hybrid"
+    ],
+    "tags": [
+      "robotics",
+      "safety",
+      "humanoid",
+      "protocol"
+    ]
+  }
+]

@@ -1,0 +1,172 @@
+{
+  "parentPassport": {
+    "name": "ECZ-ID Business Passport™",
+    "tiers": [
+      {
+        "name": "Declared",
+        "price": "Free",
+        "description": "Entry tier — establish your identity spine, no cost",
+        "entitlements": [
+          "ECZ-ID Business Passport™",
+          "Public resolver page",
+          "Business identity dashboard",
+          "Business Passport API",
+          "Immutable ledger",
+          "Evidence submission"
+        ]
+      },
+      {
+        "name": "Verified",
+        "price": "£19.99/month",
+        "description": "Verified identity + child passport access",
+        "sku": "ECZ-PARENT-VERIFIED",
+        "entitlements": [
+          "Everything in Declared",
+          "Child passport activation",
+          "Badge provisioning",
+          "Insurability readiness",
+          "Integration API access",
+          "Authority delegation"
+        ]
+      },
+      {
+        "name": "Assured",
+        "price": "£49.99/month",
+        "description": "Full assurance for regulated and high-stakes operations",
+        "sku": "ECZ-PARENT-ASSURED",
+        "entitlements": [
+          "Everything in Verified",
+          "Assured-tier passports",
+          "Quantum-safe credentials",
+          "Advanced custody chains",
+          "Regulator-grade evidence",
+          "Priority support"
+        ]
+      }
+    ],
+    "description": "The parent identity credential for any organisation entering the ECZ-ID ecosystem. Every child passport, package, and derived add-on attaches to this parent. Verified or Assured is required for child passport activation, badge provisioning, and package access."
+  },
+  "derivedAddOn": {
+    "name": "ECZ-ID Insurability Readiness™",
+    "description": "A derived add-on on the parent passport. It is NOT a package, NOT separately purchasable, and NOT manually editable. It is computed from active passports, evidence, and trust posture and indicates readiness for insurer engagement.",
+    "note": "Included as a derived readiness signal on eligible parent passports. Not counted in the 25 packages."
+  },
+  "families": [
+    {
+      "id": "family-i",
+      "number": "I",
+      "name": "Digital & Operational",
+      "description": "Machine-readable identity for agents, cyber posture, APIs, AI models, datasets, IoT devices, and software supply chain systems.",
+      "childPassports": [
+        "ECZ-ID Agent Credential™",
+        "ECZ-ID Cyber Resilience Passport™",
+        "ECZ-ID API Passport™",
+        "ECZ-ID AI Model Passport™",
+        "ECZ-ID Dataset Passport™",
+        "ECZ-ID IoT Device Passport™",
+        "ECZ-ID Software Supply Chain Passport™"
+      ],
+      "applicableDomains": [
+        "APIs, AI, Data & Software",
+        "IoT & Connected Systems"
+      ]
+    },
+    {
+      "id": "family-ii",
+      "number": "II",
+      "name": "Product, Risk & Transfer",
+      "description": "Identity for products, custody transfer, and risk policy objects that need durable proof, provenance, and transfer integrity.",
+      "childPassports": [
+        "ECZ-ID Product Passport™",
+        "ECZ-ID Custody Transfer Passport™",
+        "ECZ-ID Risk Policy Passport™"
+      ],
+      "applicableDomains": [
+        "Products, Custody & Risk",
+        "Trade, Shipping & Infrastructure"
+      ]
+    },
+    {
+      "id": "family-iii",
+      "number": "III",
+      "name": "Robotics",
+      "description": "Environment-based identity for robotic systems. Humanoids are handled as controlled variants within the correct robot passport — environment passport first, humanoid second.",
+      "childPassports": [
+        "ECZ-ID Industrial Robot Passport™",
+        "ECZ-ID Public-Space Robot Passport™",
+        "ECZ-ID Domestic Robot Passport™"
+      ],
+      "applicableDomains": [
+        "Robotics & Humanoids"
+      ],
+      "humanoidNote": "Humanoid is not a separate passport SKU. Use the correct environment passport first (Industrial, Public-Space, or Domestic), then apply the HUMANOID variant/profile. HUMANOID currently requires Assured parent tier."
+    },
+    {
+      "id": "family-iv",
+      "number": "IV",
+      "name": "Road & Freight Mobility",
+      "description": "Identity for robotaxis, autonomous cars, autonomous haulage, cross-border freight, and high-value cargo mobility systems.",
+      "childPassports": [
+        "ECZ-ID Robotaxi Passport™",
+        "ECZ-ID Autonomous Car Passport™",
+        "ECZ-ID Autonomous Haulage Truck Passport™",
+        "ECZ-ID Cross-Border Haulage Truck Passport™",
+        "ECZ-ID High-Value Cargo Truck Passport™"
+      ],
+      "applicableDomains": [
+        "Vehicles & Mobility"
+      ]
+    },
+    {
+      "id": "family-v",
+      "number": "V",
+      "name": "Aerial Mobility",
+      "description": "Identity for drones and aerial systems across D1–D4 classes. Supports operator linkage, mission attestation, and mandate/insurance-grade aerial trust.",
+      "childPassports": [
+        "ECZ-ID D1 Drone Passport™",
+        "ECZ-ID D2 Drone Passport™",
+        "ECZ-ID D3 Drone Passport™",
+        "ECZ-ID D4 Drone Passport™"
+      ],
+      "applicableDomains": [
+        "Drones & Aerial Systems"
+      ],
+      "droneNote": "D1, D2, D3, and D4 only. No extra drone passport families or unofficial aerial classes."
+    },
+    {
+      "id": "family-vi",
+      "number": "VI",
+      "name": "Infrastructure-Grade",
+      "description": "Identity for intermodal transfer, industrial sites, critical infrastructure, funds flow, marine vessels, cargo containers, aircraft, and aviation components.",
+      "childPassports": [
+        "ECZ-ID Intermodal Transfer Passport™",
+        "ECZ-ID Industrial Site Passport™",
+        "ECZ-ID Critical Infrastructure Passport™",
+        "ECZ-ID Financial Authority & Funds Flow Passport™",
+        "ECZ-ID Marine Vessel Passport™",
+        "ECZ-ID Cargo Container Passport™",
+        "ECZ-ID Aircraft Passport™",
+        "ECZ-ID Aviation Component Passport™"
+      ],
+      "applicableDomains": [
+        "Trade, Shipping & Infrastructure"
+      ]
+    },
+    {
+      "id": "family-vii",
+      "number": "VII",
+      "name": "Control & Trust Overlays",
+      "description": "Control-plane trust surfaces for platforms, continuity, and licensed operators that govern how the wider ECZ-ID system is relied upon.",
+      "childPassports": [
+        "ECZ-ID Platform Safe-Harbour Passport™",
+        "ECZ-ID Identity Continuity Passport™",
+        "ECZ-ID Licensed Infrastructure Operator Passport™"
+      ],
+      "applicableDomains": [
+        "Platforms, Marketplaces & Control Overlays"
+      ]
+    }
+  ],
+  "totalChildPassports": 33,
+  "totalFamilies": 7
+}

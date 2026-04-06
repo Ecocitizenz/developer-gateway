@@ -1,0 +1,355 @@
+{
+  "summary": {
+    "totalPackages": 25,
+    "breakdown": {
+      "corePackages": 17,
+      "kyaReadyPack": 1,
+      "advancedInfrastructureServices": 7
+    },
+    "note": "There are 25 total commercial acquisition objects shown here: 17 core packages, 1 KYA Ready Pack™, and 7 advanced infrastructure services / enterprise accelerators. ECZ-ID Insurability Readiness™ is a derived add-on and is not counted as a package."
+  },
+  "corePackages": [
+    {
+      "id": "core-resolve",
+      "name": "ECZ Core Resolve Gate",
+      "sku": "ECZ-BUNDLE-CORE-RESOLVE",
+      "price": "£69.98/month",
+      "description": "Foundational identity resolution. Establishes resolver presence with identity continuity built in.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "Foundational identity resolution. Establishes resolver presence with identity continuity built in.",
+      "includes": [
+        "IDENTITY-CONTINUITY"
+      ]
+    },
+    {
+      "id": "kyb-gate",
+      "name": "KYB Gate Pack",
+      "sku": "ECZ-BUNDLE-KYB-GATE",
+      "price": "£419.96/month",
+      "description": "Know-Your-Business credentialing. Cyber resilience, risk policy, product passport, and custody transfer in one package.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "Know-Your-Business credentialing. Cyber resilience, risk policy, product passport, and custody transfer in one package.",
+      "includes": [
+        "CYBER-RESILIENCE",
+        "RISK-POLICY",
+        "PRODUCT",
+        "CUSTODY-TRANSFER",
+        "IDENTITY-CONTINUITY"
+      ]
+    },
+    {
+      "id": "capital-access",
+      "name": "Capital Access Pack",
+      "sku": "ECZ-BUNDLE-CAPITAL-ACCESS",
+      "price": "£499.95/month",
+      "description": "Financial access credentialing. Combines financial authority, risk, custody, identity continuity, and platform safe-harbour.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "Financial access credentialing. Combines financial authority, risk, custody, identity continuity, and platform safe-harbour.",
+      "includes": [
+        "FINANCIAL-AUTHORITY-FUNDS",
+        "RISK-POLICY",
+        "CUSTODY-TRANSFER",
+        "IDENTITY-CONTINUITY",
+        "PLATFORM-SAFE-HARBOUR"
+      ]
+    },
+    {
+      "id": "payout-unlock",
+      "name": "Payout Unlock Pack",
+      "sku": "ECZ-BUNDLE-PAYOUT-UNLOCK",
+      "price": "£419.96/month",
+      "description": "Unlock payout flows with financial authority, custody transfer, risk policy, and identity continuity.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "Unlock payout flows with financial authority, custody transfer, risk policy, and identity continuity.",
+      "includes": [
+        "FINANCIAL-AUTHORITY-FUNDS",
+        "CUSTODY-TRANSFER",
+        "RISK-POLICY",
+        "IDENTITY-CONTINUITY"
+      ]
+    },
+    {
+      "id": "hold-release",
+      "name": "Hold Release Pack",
+      "sku": "ECZ-BUNDLE-HOLD-RELEASE",
+      "price": "£519.95/month",
+      "description": "Custody release credentialing for regulated hold-and-release workflows. Financial authority, custody, risk, identity, and platform safe-harbour.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "Custody release credentialing for regulated hold-and-release workflows. Financial authority, custody, risk, identity, and platform safe-harbour.",
+      "includes": [
+        "FINANCIAL-AUTHORITY-FUNDS",
+        "CUSTODY-TRANSFER",
+        "RISK-POLICY",
+        "IDENTITY-CONTINUITY",
+        "PLATFORM-SAFE-HARBOUR"
+      ]
+    },
+    {
+      "id": "developer-payout",
+      "name": "Developer Payout Pack",
+      "sku": "ECZ-BUNDLE-DEVELOPER-PAYOUT",
+      "price": "£219.97/month",
+      "description": "Payment credentialing for developer ecosystems. API passport, agent credential, and software supply chain.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "Payment credentialing for developer ecosystems. API passport, agent credential, and software supply chain.",
+      "includes": [
+        "API-PASSPORT",
+        "AGENT-CREDENTIAL",
+        "SOFTWARE-SUPPLY-CHAIN"
+      ]
+    },
+    {
+      "id": "supplier-eligibility",
+      "name": "Supplier Eligibility Pack",
+      "sku": "ECZ-BUNDLE-SUPPLIER-ELIGIBILITY",
+      "price": "£169.97/month",
+      "description": "Supply chain eligibility credentialing. Product passport, custody transfer, and IoT device identity.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "Supply chain eligibility credentialing. Product passport, custody transfer, and IoT device identity.",
+      "includes": [
+        "PRODUCT",
+        "CUSTODY-TRANSFER",
+        "IOT-DEVICE"
+      ]
+    },
+    {
+      "id": "tax-integrity",
+      "name": "Tax Integrity Pack",
+      "sku": "ECZ-BUNDLE-TAX-INTEGRITY",
+      "price": "£219.97/month",
+      "description": "Tax compliance credentialing. Financial authority, risk policy, and identity continuity.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "Tax compliance credentialing. Financial authority, risk policy, and identity continuity.",
+      "includes": [
+        "FINANCIAL-AUTHORITY-FUNDS",
+        "RISK-POLICY",
+        "IDENTITY-CONTINUITY"
+      ]
+    },
+    {
+      "id": "digital-custody",
+      "name": "Digital Custody Chain Pack",
+      "sku": "ECZ-BUNDLE-DIGITAL-CUSTODY",
+      "price": "£199.97/month",
+      "description": "Digital custody chain credentialing. Custody transfer, identity continuity, and product passport.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "Digital custody chain credentialing. Custody transfer, identity continuity, and product passport.",
+      "includes": [
+        "CUSTODY-TRANSFER",
+        "IDENTITY-CONTINUITY",
+        "PRODUCT"
+      ]
+    },
+    {
+      "id": "etrade-docs",
+      "name": "eTrade Documents Pack",
+      "sku": "ECZ-BUNDLE-ETRADE-DOCS",
+      "price": "£199.97/month",
+      "description": "Trade documentation credentialing. Cargo container, custody transfer, and intermodal transfer passports.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "Trade documentation credentialing. Cargo container, custody transfer, and intermodal transfer passports.",
+      "includes": [
+        "CARGO-CONTAINER",
+        "CUSTODY-TRANSFER",
+        "INTERMODAL-TRANSFER"
+      ]
+    },
+    {
+      "id": "critical-operator",
+      "name": "Critical Operator Pack",
+      "sku": "ECZ-BUNDLE-CRITICAL-OPERATOR",
+      "price": "£319.97/month",
+      "description": "Critical infrastructure operator credentialing. Critical infrastructure, industrial site, and licensed operator.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "Critical infrastructure operator credentialing. Critical infrastructure, industrial site, and licensed operator.",
+      "includes": [
+        "CRITICAL-INFRASTRUCTURE",
+        "INDUSTRIAL-SITE",
+        "LICENSED-INFRASTRUCTURE-OPERATOR"
+      ]
+    },
+    {
+      "id": "cyber-governance",
+      "name": "Cyber Governance Pack",
+      "sku": "ECZ-BUNDLE-CYBER-GOVERNANCE",
+      "price": "£219.97/month",
+      "description": "Cyber governance credentialing. Cyber resilience, software supply chain, and API passport.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "Cyber governance credentialing. Cyber resilience, software supply chain, and API passport.",
+      "includes": [
+        "CYBER-RESILIENCE",
+        "SOFTWARE-SUPPLY-CHAIN",
+        "API-PASSPORT"
+      ]
+    },
+    {
+      "id": "dora-vendor",
+      "name": "DORA Vendor Pack",
+      "sku": "ECZ-BUNDLE-DORA-VENDOR",
+      "price": "£319.96/month",
+      "description": "DORA compliance vendor credentialing. Cyber resilience, software supply chain, risk policy, and identity continuity.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "DORA compliance vendor credentialing. Cyber resilience, software supply chain, risk policy, and identity continuity.",
+      "includes": [
+        "CYBER-RESILIENCE",
+        "SOFTWARE-SUPPLY-CHAIN",
+        "RISK-POLICY",
+        "IDENTITY-CONTINUITY"
+      ]
+    },
+    {
+      "id": "sbom-liability",
+      "name": "SBOM Liability Pack",
+      "sku": "ECZ-BUNDLE-SBOM-LIABILITY",
+      "price": "£269.96/month",
+      "description": "SBOM liability credentialing. Software supply chain, product, cyber resilience, and IoT device.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "SBOM liability credentialing. Software supply chain, product, cyber resilience, and IoT device.",
+      "includes": [
+        "SOFTWARE-SUPPLY-CHAIN",
+        "PRODUCT",
+        "CYBER-RESILIENCE",
+        "IOT-DEVICE"
+      ]
+    },
+    {
+      "id": "ai-provenance",
+      "name": "AI Provenance Pack",
+      "sku": "ECZ-BUNDLE-AI-PROVENANCE",
+      "price": "£209.96/month",
+      "description": "AI provenance credentialing. AI model, dataset, software supply chain, and agent credential.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "AI provenance credentialing. AI model, dataset, software supply chain, and agent credential.",
+      "includes": [
+        "AI-MODEL",
+        "DATASET",
+        "SOFTWARE-SUPPLY-CHAIN",
+        "AGENT-CREDENTIAL"
+      ]
+    },
+    {
+      "id": "provider-credentialing",
+      "name": "Provider Credentialing Pack",
+      "sku": "ECZ-BUNDLE-PROVIDER-CREDENTIALING",
+      "price": "£119.98/month (base + £5.99/practitioner)",
+      "description": "Provider credentialing for practitioner-based operations. Base price plus £5.99 per practitioner.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "Provider credentialing for practitioner-based operations. Base price plus £5.99 per practitioner.",
+      "includes": [
+        "AGENT-CREDENTIAL",
+        "IDENTITY-CONTINUITY"
+      ]
+    },
+    {
+      "id": "healthcare-integrity",
+      "name": "Healthcare Integrity Pack",
+      "sku": "ECZ-BUNDLE-HEALTHCARE-INTEGRITY",
+      "price": "£169.97/month (base + £5.99/practitioner)",
+      "description": "Healthcare integrity credentialing. Agent credential, identity continuity, and risk policy. Base price plus £5.99 per practitioner.",
+      "family": "Package",
+      "targetAudience": "See TrustOps /start for corridor fit",
+      "idealFor": "Healthcare integrity credentialing. Agent credential, identity continuity, and risk policy. Base price plus £5.99 per practitioner.",
+      "includes": [
+        "AGENT-CREDENTIAL",
+        "IDENTITY-CONTINUITY",
+        "RISK-POLICY"
+      ]
+    }
+  ],
+  "kyaReadyPack": {
+    "id": "ecz-bundle-kya-ready",
+    "name": "KYA Ready Pack™",
+    "sku": "ECZ-BUNDLE-KYA-READY",
+    "price": "£149.97/month",
+    "description": "Know-Your-Agent readiness pack. Agent credential, identity continuity, and API passport — everything needed for agent-first onboarding.",
+    "targetAudience": "Agent-first onboarding",
+    "idealFor": "Fastest path to a credentialed agent",
+    "includes": [
+      "AGENT-CREDENTIAL",
+      "IDENTITY-CONTINUITY",
+      "API-PASSPORT"
+    ],
+    "note": "KYA Ready Pack™ is a distinct commercial acquisition object and is counted in the 25 total packages."
+  },
+  "advancedInfrastructureServices": [
+    {
+      "id": "policy-code",
+      "name": "Policy-as-Code Gate Adapters",
+      "sku": "ECZ-ACCEL-POLICY-CODE",
+      "price": "£1,999/integration/month",
+      "description": "Policy-as-code integration adapters for embedding ECZ-ID gate checks into existing policy engines.",
+      "targetAudience": "Enterprise",
+      "idealFor": "Policy-as-code integration adapters for embedding ECZ-ID gate checks into existing policy engines."
+    },
+    {
+      "id": "underwriting",
+      "name": "Underwriting Workbench",
+      "sku": "ECZ-ACCEL-UNDERWRITING",
+      "price": "£4,999/tenant/month",
+      "description": "Dedicated underwriting workbench for insurers and risk operators, with ECZ-ID-backed risk attribution.",
+      "targetAudience": "Enterprise",
+      "idealFor": "Dedicated underwriting workbench for insurers and risk operators, with ECZ-ID-backed risk attribution."
+    },
+    {
+      "id": "connector-marketplace",
+      "name": "Connector Marketplace",
+      "sku": "ECZ-ACCEL-CONNECTOR-MARKETPLACE",
+      "price": "£99/connector/month",
+      "description": "Pre-built connectors for third-party integrations, each independently credentialed via ECZ-ID.",
+      "targetAudience": "Enterprise",
+      "idealFor": "Pre-built connectors for third-party integrations, each independently credentialed via ECZ-ID."
+    },
+    {
+      "id": "telematics",
+      "name": "Telematics Premium Pack",
+      "sku": "ECZ-ACCEL-TELEMATICS",
+      "price": "£249/fleet/month",
+      "description": "Premium telematics overlay for fleet-based operations. Telematics data linked to ECZ-ID identity spine.",
+      "targetAudience": "Enterprise",
+      "idealFor": "Premium telematics overlay for fleet-based operations. Telematics data linked to ECZ-ID identity spine."
+    },
+    {
+      "id": "sbom-analytics",
+      "name": "SBOM/Vuln Ingestion Analytics Overlay",
+      "sku": "ECZ-ACCEL-SBOM-ANALYTICS",
+      "price": "£999/org/month",
+      "description": "SBOM and vulnerability ingestion analytics overlay. Continuous monitoring tied to ECZ-ID software supply chain passports.",
+      "targetAudience": "Enterprise",
+      "idealFor": "SBOM and vulnerability ingestion analytics overlay. Continuous monitoring tied to ECZ-ID software supply chain passports."
+    },
+    {
+      "id": "contract-clause",
+      "name": "Contract Clause Generator",
+      "sku": "ECZ-ACCEL-CONTRACT-CLAUSE",
+      "price": "£199/org/month",
+      "description": "Automated contract clause generation powered by ECZ-ID identity and authority state.",
+      "targetAudience": "Enterprise",
+      "idealFor": "Automated contract clause generation powered by ECZ-ID identity and authority state."
+    },
+    {
+      "id": "bundle-registry",
+      "name": "Public Bundle Registry + Receipt Envelope Publisher",
+      "sku": "ECZ-ACCEL-BUNDLE-REGISTRY",
+      "price": "£499/org/month",
+      "description": "Public-facing bundle registry with receipt envelope publishing. Enables transparent, verifiable credential distribution.",
+      "targetAudience": "Enterprise",
+      "idealFor": "Public-facing bundle registry with receipt envelope publishing. Enables transparent, verifiable credential distribution."
+    }
+  ]
+}

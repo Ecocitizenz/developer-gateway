@@ -1,0 +1,132 @@
+[
+  {
+    "id": "apis-ai-data-software",
+    "name": "APIs, AI, Data & Software",
+    "slug": "apis-ai-data-software",
+    "shortDescription": "Verified identity for AI agents, API endpoints, datasets, models, and software supply chains.",
+    "description": "Every API call, every AI model inference, every dataset handoff, every software deployment—verified, traceable, and trusted. ECZ-ID provides the identity layer that makes the software supply chain auditable from source to consumption.",
+    "entities": [
+      {"name": "AI Agents", "description": "Autonomous software agents with verified identity, provenance tracking, and auditable action chains."},
+      {"name": "AI Models", "description": "Machine learning models with identity-anchored training provenance, version tracking, and deployment attestation."},
+      {"name": "API Endpoints", "description": "Verified API identities with capability attestation, rate governance, and trust-scored access control."},
+      {"name": "Datasets", "description": "Data assets with provenance-tracked lineage, quality attestation, and consumption audit trails."},
+      {"name": "Software Supply Chain", "description": "End-to-end software identity from source code through build, test, deploy, and runtime with verified provenance."}
+    ],
+    "icon": "code",
+    "color": "blue"
+  },
+  {
+    "id": "iot-connected-systems",
+    "name": "IoT & Connected Systems",
+    "slug": "iot-connected-systems",
+    "shortDescription": "Trust infrastructure for connected devices, sensors, gateways, and edge computing systems.",
+    "description": "Billions of devices. Trillions of data points. Zero trust without identity. ECZ-ID brings verified, attestable identity to every sensor, gateway, edge node, and connected system—from factory floor to field deployment.",
+    "entities": [
+      {"name": "IoT Devices", "description": "Connected devices with hardware-anchored identity, firmware attestation, and lifecycle management."},
+      {"name": "Sensors & Actuators", "description": "Measurement and control endpoints with calibration attestation and data integrity verification."},
+      {"name": "Edge Gateways", "description": "Edge computing nodes with verified processing identity and data routing attestation."},
+      {"name": "Industrial Controllers", "description": "SCADA and PLC systems with verified operational identity and command authentication."}
+    ],
+    "icon": "cpu",
+    "color": "teal"
+  },
+  {
+    "id": "products-custody-risk",
+    "name": "Products, Custody & Risk",
+    "slug": "products-custody-risk",
+    "shortDescription": "Digital product passports, custody chain verification, and risk policy enforcement.",
+    "description": "From manufacture to end-of-life, every product deserves a verified identity. ECZ-ID enables digital product passports, unbroken custody chains, and risk policies that follow the asset—not the paperwork.",
+    "entities": [
+      {"name": "Product Passports", "description": "Digital product identities with full lifecycle tracking, composition attestation, and regulatory compliance."},
+      {"name": "Custody Transfer", "description": "Verified handoff records with cryptographic proof of transfer, condition attestation, and chain integrity."},
+      {"name": "Risk Policies", "description": "Identity-anchored risk assessments, policy gates, and continuous compliance monitoring."}
+    ],
+    "icon": "shield",
+    "color": "amber"
+  },
+  {
+    "id": "robotics-humanoids",
+    "name": "Robotics & Humanoids",
+    "slug": "robotics-humanoids",
+    "shortDescription": "Verified identity for industrial, public-space, domestic, and humanoid robotic systems.",
+    "description": "Robots operating alongside humans need more than programming—they need verified identity, operational boundaries, and safety attestation. ECZ-ID provides the trust infrastructure for every class of robotic system.",
+    "entities": [
+      {"name": "Industrial Robots", "description": "Factory-floor robotic systems with operational boundary verification and safety attestation."},
+      {"name": "Public-Space Robots", "description": "Service and delivery robots operating in public environments with verified safety protocols."},
+      {"name": "Domestic Robots", "description": "Home automation and assistive robots with privacy-respecting identity and safety verification."},
+      {"name": "Humanoid Robots", "description": "Human-form robotic systems with comprehensive identity, capability attestation, and interaction boundaries."}
+    ],
+    "icon": "bot",
+    "color": "violet"
+  },
+  {
+    "id": "vehicles-mobility",
+    "name": "Vehicles & Mobility",
+    "slug": "vehicles-mobility",
+    "shortDescription": "Trust infrastructure for robotaxis, autonomous vehicles, and haulage fleets.",
+    "description": "Autonomous vehicles don't just need to drive—they need to prove who they are, what they're authorised to do, and where they've been. ECZ-ID delivers verified identity across the entire mobility spectrum.",
+    "entities": [
+      {"name": "Robotaxis", "description": "Autonomous ride-hail vehicles with passenger safety attestation and route verification."},
+      {"name": "Autonomous Cars", "description": "Self-driving vehicles with verified driving credentials, operational domain attestation, and safety records."},
+      {"name": "Haulage Trucks", "description": "Autonomous freight vehicles with cargo custody verification and cross-border identity management."}
+    ],
+    "icon": "truck",
+    "color": "slate"
+  },
+  {
+    "id": "drones-aerial-systems",
+    "name": "Drones & Aerial Systems",
+    "slug": "drones-aerial-systems",
+    "shortDescription": "Verified identity for all drone classes from micro UAVs to large autonomous aerial systems.",
+    "description": "The sky is becoming infrastructure. From delivery drones to survey platforms to autonomous cargo aircraft, every aerial system needs verified identity, mission attestation, and regulatory compliance. ECZ-ID covers every class.",
+    "entities": [
+      {"name": "D1 — Micro/Nano Drones", "description": "Sub-250g drones with lightweight identity and basic operational attestation."},
+      {"name": "D2 — Small Commercial Drones", "description": "Delivery and survey drones with mission attestation, geofence verification, and operator identity."},
+      {"name": "D3 — Medium Autonomous Drones", "description": "Industrial and logistics drones with cargo identity, corridor verification, and autonomous operation attestation."},
+      {"name": "D4 — Large Autonomous Aerial Systems", "description": "Heavy-lift and long-range aerial systems with comprehensive flight identity and regulatory compliance."}
+    ],
+    "icon": "plane",
+    "color": "sky"
+  },
+  {
+    "id": "trade-shipping-infrastructure",
+    "name": "Trade, Shipping & Infrastructure",
+    "slug": "trade-shipping-infrastructure",
+    "shortDescription": "Identity infrastructure for global trade, shipping, intermodal transport, and critical systems.",
+    "description": "Global trade runs on trust—and trust runs on verified identity. ECZ-ID provides the identity backbone for containers, vessels, cargo, intermodal transfers, industrial sites, and critical infrastructure.",
+    "entities": [
+      {"name": "Cargo Containers", "description": "Shipping containers with verified identity, seal attestation, and custody chain tracking."},
+      {"name": "Marine Vessels", "description": "Ships and maritime assets with verified registry, crew attestation, and voyage tracking."},
+      {"name": "Intermodal Transfers", "description": "Cross-modal handoffs with verified custody transfer and condition attestation at every point."},
+      {"name": "Industrial Sites", "description": "Facilities and installations with verified operational identity and access control."},
+      {"name": "Critical Infrastructure", "description": "Essential systems and facilities with sovereign-grade identity and continuous security attestation."},
+      {"name": "Aircraft", "description": "Commercial and cargo aircraft with verified identity, maintenance attestation, and flight records."}
+    ],
+    "icon": "anchor",
+    "color": "emerald"
+  },
+  {
+    "id": "platforms-marketplaces-control-overlays",
+    "name": "Platforms, Marketplaces & Control Overlays",
+    "slug": "platforms-marketplaces-control-overlays",
+    "shortDescription": "Trust overlays for platforms, marketplaces, and multi-party coordination systems.",
+    "description": "Platforms connect participants. Marketplaces facilitate exchange. Control overlays enforce rules. ECZ-ID provides the identity and trust layer that makes all three work with verified participants, auditable transactions, and enforceable governance.",
+    "entities": [
+      {"name": "Marketplace Platforms", "description": "Multi-sided marketplaces with verified participant identity, trust scoring, and transaction attestation."},
+      {"name": "Control Overlays", "description": "Governance and policy enforcement layers with identity-anchored rule execution and audit trails."},
+      {"name": "Federation Systems", "description": "Cross-organisation coordination with federated identity, delegated trust, and mutual attestation."}
+    ],
+    "icon": "layers",
+    "color": "indigo"
+  },
+  {
+    "id": "passport-families-packages",
+    "name": "Passport Families & Packages",
+    "slug": "passport-families-packages",
+    "shortDescription": "Pre-configured identity passport bundles for common deployment patterns and industry verticals.",
+    "description": "Not every deployment starts from scratch. ECZ-ID Passport Families and Packages provide pre-configured identity bundles for common patterns—from single-agent deployments to enterprise-wide fleet management.",
+    "entities": [],
+    "icon": "package",
+    "color": "rose"
+  }
+]
